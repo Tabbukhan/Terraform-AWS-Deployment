@@ -15,18 +15,18 @@ project/
 
 ✅ Essential Setup Checklist
 
-1. Install Terraform -
+### 1. Install Terraform -
 	terraform -version
 
-2. Configure AWS CLI Credentials - 
+### 2. Configure AWS CLI Credentials - 
 	aws configure
 ### NOTE: Ensure it creates the file ~/.aws/credentials with proper AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-#  Alternatively, export environment variables:
+###  Alternatively, export environment variables:
 	export AWS_ACCESS_KEY_ID=your_access_key
 	export AWS_SECRET_ACCESS_KEY=your_secret_key
 	export AWS_DEFAULT_REGION=us-east-1
 
-3. Create Required AWS Resources Manually or via Terraform
+### 3. Create Required AWS Resources Manually or via Terraform
    Before running this module, you need:
 
 - ✅ VPC with at least one public subnet
