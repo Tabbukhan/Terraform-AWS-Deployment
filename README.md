@@ -20,8 +20,8 @@ project/
 
 2. Configure AWS CLI Credentials - 
 	aws configure
-NOTE: Ensure it creates the file ~/.aws/credentials with proper AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-  Alternatively, export environment variables:
+### NOTE: Ensure it creates the file ~/.aws/credentials with proper AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+#  Alternatively, export environment variables:
 	export AWS_ACCESS_KEY_ID=your_access_key
 	export AWS_SECRET_ACCESS_KEY=your_secret_key
 	export AWS_DEFAULT_REGION=us-east-1
@@ -29,9 +29,9 @@ NOTE: Ensure it creates the file ~/.aws/credentials with proper AWS_ACCESS_KEY_I
 3. Create Required AWS Resources Manually or via Terraform
    Before running this module, you need:
 
-✅ VPC with at least one public subnet
-✅ Security Group that allows inbound SSH (port 22)
-✅ Key Pair (for SSH access)
+- ✅ VPC with at least one public subnet
+- ✅ Security Group that allows inbound SSH (port 22)
+- ✅ Key Pair (for SSH access)
 
 🔐 Best Practices (Optional Enhancements) :
 
