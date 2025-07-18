@@ -20,7 +20,7 @@ project/
 
 2. Configure AWS CLI Credentials - 
 	aws configure
-# Ensure it creates the file ~/.aws/credentials with proper AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+NOTE: Ensure it creates the file ~/.aws/credentials with proper AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
   Alternatively, export environment variables:
 	export AWS_ACCESS_KEY_ID=your_access_key
 	export AWS_SECRET_ACCESS_KEY=your_secret_key
